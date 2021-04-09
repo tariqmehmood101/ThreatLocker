@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreatLocker", "ThreadLocker\ThreatLocker.csproj", "{C830DF2B-147D-4BC1-8BFA-A123EE50C1B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreatLocker.Entities", "ThreadLocker.Entities\ThreatLocker.Entities.csproj", "{95328A8B-9CC5-4408-AD02-2DD46A34AA89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreatLocker.Data", "ThreadLocker.Data\ThreatLocker.Data.csproj", "{E4C6273C-C1D1-4D19-A0D5-957AC98D1CD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreatLocker.Business", "ThreatLocker.Business\ThreatLocker.Business.csproj", "{1E3ED8CF-7B42-4372-8155-8A166F85E33B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreatLocker.ConsoleApp", "ThreatLocker.ConsoleApp\ThreatLocker.ConsoleApp.csproj", "{16A3E0B0-9C11-4D80-B543-A7B49E5B0B3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C830DF2B-147D-4BC1-8BFA-A123EE50C1B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C830DF2B-147D-4BC1-8BFA-A123EE50C1B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C830DF2B-147D-4BC1-8BFA-A123EE50C1B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C830DF2B-147D-4BC1-8BFA-A123EE50C1B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95328A8B-9CC5-4408-AD02-2DD46A34AA89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95328A8B-9CC5-4408-AD02-2DD46A34AA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95328A8B-9CC5-4408-AD02-2DD46A34AA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95328A8B-9CC5-4408-AD02-2DD46A34AA89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4C6273C-C1D1-4D19-A0D5-957AC98D1CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4C6273C-C1D1-4D19-A0D5-957AC98D1CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4C6273C-C1D1-4D19-A0D5-957AC98D1CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4C6273C-C1D1-4D19-A0D5-957AC98D1CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E3ED8CF-7B42-4372-8155-8A166F85E33B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E3ED8CF-7B42-4372-8155-8A166F85E33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E3ED8CF-7B42-4372-8155-8A166F85E33B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E3ED8CF-7B42-4372-8155-8A166F85E33B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16A3E0B0-9C11-4D80-B543-A7B49E5B0B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16A3E0B0-9C11-4D80-B543-A7B49E5B0B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16A3E0B0-9C11-4D80-B543-A7B49E5B0B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16A3E0B0-9C11-4D80-B543-A7B49E5B0B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B14734A8-5CE8-4184-8D26-24E181A05F21}
+	EndGlobalSection
+EndGlobal
