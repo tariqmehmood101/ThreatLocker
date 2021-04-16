@@ -54,9 +54,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ThreadLocker.Data\ThreatLocker.Data.csproj">
-      <Project>{e4c6273c-c1d1-4d19-a0d5-957ac98d1cd9}</Project>
-      <Name>ThreatLocker.Data</Name>
+    <ProjectReference Include="..\ThreatLocker.Business\ThreatLocker.Business.csproj">
+      <Project>{1e3ed8cf-7b42-4372-8155-8a166f85e33b}</Project>
+      <Name>ThreatLocker.Business</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

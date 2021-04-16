@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using ThreatLocker.Data;
+using ThreatLocker.Business;
+
 
 namespace ThreatLocker.ConsoleApp
 {
@@ -17,7 +18,8 @@ namespace ThreatLocker.ConsoleApp
         }
         private static void TimerCallback(Object o)
         {
-            DataManager.UpdateUserLogin();
+            UserManager UserMng = new UserManager();
+            UserMng.UpdateUserLogin();
         }
     }
 }

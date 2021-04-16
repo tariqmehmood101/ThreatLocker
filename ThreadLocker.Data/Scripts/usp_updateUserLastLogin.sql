@@ -5,12 +5,11 @@ BEGIN
 END;
 Go
 Create Procedure usp_updateUserLastLogin 
-as
+@UserID INT,
+@LogTime DateTime
+AS
 BEGIN
-	Update U Set U.LastLogin = LoginTime From [User] U (NOLOCK)
-	JOIN 
-	(
-	Select UH.UserID,MAX(UH.DateTime) LoginTime  From UserLoginHistory UH (NOLOCK)
-	GROUP BY UH.UserID
-	) AS UHH ON U.UserId = UHH.UserID
+	
+	Update U set U.LastLogin = @LogTime  From [User] U (NOLOCK) Where U.UserId = @UserID
+	
 END

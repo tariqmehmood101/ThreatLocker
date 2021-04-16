@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using ThreatLocker.Data;
 using ThreatLocker.Entities;
 
@@ -14,7 +15,14 @@ namespace ThreatLocker.Business
         }
         public void UpdateUserLogin()
         {
-            DataManager.UpdateUserLogin();
+
+            IEnumerable<UserLoginHistory> UsersHistory = DataManager.GetUserLoginHistory();
+            
+            foreach (var History in UsersHistory)
+            {
+                DataManager.UpdateUserLogin(History.UserID, History.DateTime);
+            }
+            
         }
     }
 }
